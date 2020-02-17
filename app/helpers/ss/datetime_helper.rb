@@ -1,4 +1,4 @@
-module SS::DatetimeHelper
+module Ss::DatetimeHelper
   def number_with_datetime_unit(object, method)
     [
       object.send(method),
